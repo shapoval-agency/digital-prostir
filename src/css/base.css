@@ -1,0 +1,295 @@
+/* --- Inter Regular (400) --- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- Inter Medium (500) --- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- Inter SemiBold (600) --- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- Inter Bold (700) --- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- Inter Light (300) - если понадобится --- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- Inter Italic (курсив) - если понадобится --- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Italic.otf') format('opentype');
+    font-weight: 400;
+    /* Regular Italic */
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Azo Sans";
+    src: url('../fonts/AzoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+
+    /* desktop */
+    /* color */
+    --colors-additional-colors-dodger-blue-100: #5b5aff;
+    --colors-additional-colors-dodger-blue-20: #dedeff;
+    --colors-additional-colors-dodger-blue-40: #bdbdff;
+    --colors-additional-colors-dodger-blue-60: #9c9cfe;
+    --colors-additional-colors-dodger-blue-80: #7b7bff;
+    --colors-additional-colors-gorse-100: #ffdb4d;
+    --colors-additional-colors-gorse-20: #fff7db;
+    --colors-additional-colors-gorse-40: #fff0b7;
+    --colors-additional-colors-gorse-60: #fee994;
+    --colors-additional-colors-gorse-80: #ffe270;
+    --colors-additional-colors-lima-100: #89db33;
+    --colors-additional-colors-lima-20: #e7f7d6;
+    --colors-additional-colors-lima-40: #cff0ad;
+    --colors-additional-colors-lima-60: #b8e984;
+    --colors-additional-colors-lima-80: #a0e25b;
+    --colors-additional-colors-malachite-100: #04c65d;
+    --colors-additional-colors-malachite-20: #ccf3de;
+    --colors-additional-colors-malachite-40: #9ae8be;
+    --colors-additional-colors-malachite-60: #68dc9d;
+    --colors-additional-colors-malachite-80: #36d17d;
+    --colors-additional-colors-radiance-100: #007eff;
+    --colors-additional-colors-radiance-20: #cce5ff;
+    --colors-additional-colors-radiance-40: #99cbff;
+    --colors-additional-colors-radiance-60: #66b1fe;
+    --colors-additional-colors-radiance-80: #3397ff;
+    --colors-additional-colors-scarlet-100: #ff3800;
+    --colors-additional-colors-scarlet-20: #ffd7cc;
+    --colors-additional-colors-scarlet-40: #ffaf99;
+    --colors-additional-colors-scarlet-60: #fe8766;
+    --colors-additional-colors-scarlet-80: #ff5f33;
+    --colors-additional-colors-soft-olive-100: #b5d68a;
+    --colors-additional-colors-soft-olive-20: #f1fadf;
+    --colors-additional-colors-soft-olive-40: #e4f5cc;
+    --colors-additional-colors-soft-olive-60: #d8efb8;
+    --colors-additional-colors-soft-olive-80: #c9e4a1;
+    --colors-additional-colors-violet-100: #aa2b8e;
+    --colors-additional-colors-violet-20: #eed4e8;
+    --colors-additional-colors-violet-40: #ddaad1;
+    --colors-additional-colors-violet-60: #cc7fbb;
+    --colors-additional-colors-violet-80: #bb55a4;
+    --colors-basic-colors-grayscale-100: #101010;
+    --colors-basic-colors-grayscale-20: #f3f3f3;
+    --colors-basic-colors-grayscale-20-50: #f3f3f380;
+    --colors-basic-colors-grayscale-20-75: #f3f3f3bf;
+    --colors-basic-colors-grayscale-40: #d6d6d6;
+    --colors-basic-colors-grayscale-60: #696969;
+    --colors-basic-colors-grayscale-80: #393939;
+    --colors-basic-colors-pumpkin-100: #ff831a;
+    --colors-basic-colors-pumpkin-20: #ffe6d1;
+    --colors-basic-colors-pumpkin-40: #ffcda3;
+    --colors-basic-colors-pumpkin-60: #feb475;
+    --colors-basic-colors-pumpkin-80: #ff9b47;
+    --colors-neutral-0: #ffffff;
+    --colors-neutral-100: #f0f2f5;
+    --colors-neutral-200: #e4e7ec;
+    --colors-neutral-300: #d0d5dd;
+    --colors-neutral-400: #98a2b3;
+    --colors-neutral-50: #f9fafb;
+    --colors-neutral-75: #f7f9fc;
+    --colors-system-blue-100: #0d5eba;
+    --colors-system-blue-200: #034592;
+    --colors-system-blue-50: #80bbff;
+    --colors-system-error-100: #ff3800;
+    --colors-system-error-25: #fdf4f6;
+    --colors-system-success-100: #40b869;
+    --colors-system-success-25: #e7f6ec;
+    /* number */
+    --fonts-size-12: 0.75rem;
+    --fonts-size-14: 0.875rem;
+    --fonts-size-16: 1rem;
+    --fonts-size-21: 1.3125rem;
+    --fonts-size-29: 1.8125rem;
+    --fonts-size-40: 2.5rem;
+    --fonts-size-54: 3.375rem;
+    --fonts-size-74: 4.625rem;
+    --fonts-size-100: 6.25rem;
+    /* string */
+    --fonts-family-inter: inter;
+    --font-family-Azo-Sans: Azo Sans;
+    --fonts-weight-bold: bold;
+    --fonts-weight-light: light;
+    --fonts-weight-medium: medium;
+    --fonts-weight-regular: regular;
+    --fonts-weight-semibold: semibold;
+    /* mobile */
+    /* color */
+    --colors-additional-colors-dodger-blue-100: #5b5aff;
+    --colors-additional-colors-dodger-blue-20: #dedeff;
+    --colors-additional-colors-dodger-blue-40: #bdbdff;
+    --colors-additional-colors-dodger-blue-60: #9c9cfe;
+    --colors-additional-colors-dodger-blue-80: #7b7bff;
+    --colors-additional-colors-gorse-100: #ffdb4d;
+    --colors-additional-colors-gorse-20: #fff7db;
+    --colors-additional-colors-gorse-40: #fff0b7;
+    --colors-additional-colors-gorse-60: #fee994;
+    --colors-additional-colors-gorse-80: #ffe270;
+    --colors-additional-colors-lima-100: #89db33;
+    --colors-additional-colors-lima-20: #e7f7d6;
+    --colors-additional-colors-lima-40: #cff0ad;
+    --colors-additional-colors-lima-60: #b8e984;
+    --colors-additional-colors-lima-80: #a0e25b;
+    --colors-additional-colors-malachite-100: #04c65d;
+    --colors-additional-colors-malachite-20: #ccf3de;
+    --colors-additional-colors-malachite-40: #9ae8be;
+    --colors-additional-colors-malachite-60: #68dc9d;
+    --colors-additional-colors-malachite-80: #36d17d;
+    --colors-additional-colors-radiance-100: #007eff;
+    --colors-additional-colors-radiance-20: #cce5ff;
+    --colors-additional-colors-radiance-40: #99cbff;
+    --colors-additional-colors-radiance-60: #66b1fe;
+    --colors-additional-colors-radiance-80: #3397ff;
+    --colors-additional-colors-scarlet-100: #ff3800;
+    --colors-additional-colors-scarlet-20: #ffd7cc;
+    --colors-additional-colors-scarlet-40: #ffaf99;
+    --colors-additional-colors-scarlet-60: #fe8766;
+    --colors-additional-colors-scarlet-80: #ff5f33;
+    --colors-additional-colors-soft-olive-100: #b5d68a;
+    --colors-additional-colors-soft-olive-20: #f1fadf;
+    --colors-additional-colors-soft-olive-40: #e4f5cc;
+    --colors-additional-colors-soft-olive-60: #d8efb8;
+    --colors-additional-colors-soft-olive-80: #c9e4a1;
+    --colors-additional-colors-violet-100: #aa2b8e;
+    --colors-additional-colors-violet-20: #eed4e8;
+    --colors-additional-colors-violet-40: #ddaad1;
+    --colors-additional-colors-violet-60: #cc7fbb;
+    --colors-additional-colors-violet-80: #bb55a4;
+    --colors-basic-colors-grayscale-100: #101010;
+    --colors-basic-colors-grayscale-20: #f3f3f3;
+    --colors-basic-colors-grayscale-20-50: #f3f3f380;
+    --colors-basic-colors-grayscale-20-75: #f3f3f3bf;
+    --colors-basic-colors-grayscale-40: #d6d6d6;
+    --colors-basic-colors-grayscale-60: #696969;
+    --colors-basic-colors-grayscale-80: #393939;
+    --colors-basic-colors-pumpkin-100: #ff831a;
+    --colors-basic-colors-pumpkin-20: #ffe6d1;
+    --colors-basic-colors-pumpkin-40: #ffcda3;
+    --colors-basic-colors-pumpkin-60: #feb475;
+    --colors-basic-colors-pumpkin-80: #ff9b47;
+    --colors-neutral-0: #ffffff;
+    --colors-neutral-100: #f0f2f5;
+    --colors-neutral-200: #e4e7ec;
+    --colors-neutral-300: #d0d5dd;
+    --colors-neutral-400: #98a2b3;
+    --colors-neutral-50: #f9fafb;
+    --colors-neutral-75: #f7f9fc;
+    --colors-system-blue-100: #0d5eba;
+    --colors-system-blue-200: #034592;
+    --colors-system-blue-50: #80bbff;
+    --colors-system-error-100: #ff3800;
+    --colors-system-error-25: #fdf4f6;
+    --colors-system-success-100: #40b869;
+    --colors-system-success-25: #e7f6ec;
+    /* number */
+    --fonts-size-12: 0.75rem;
+    --fonts-size-14: 0.875rem;
+    --fonts-size-16: 0.875rem;
+    --fonts-size-21: 1rem;
+    --fonts-size-29: 1.3125rem;
+    --fonts-size-40: 1.8125rem;
+    --fonts-size-54: 2.5rem;
+    --fonts-size-74: 3.375rem;
+    --fonts-size-100: 4.625rem;
+    /* string */
+    --fonts-family-inter: 'Inter', sans-serif;
+    --fonts-weight-light: 300;
+    --fonts-weight-regular: 400;
+    --fonts-weight-medium: 500;
+    --fonts-weight-semibold: 600;
+    --fonts-weight-bold: 700;
+
+}
+
+
+/* Базовые стили */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: var(--fonts-family-inter);
+    font-weight: var(--fonts-weight-regular);
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    color: var(--text-primary);
+    background: #fff;
+}

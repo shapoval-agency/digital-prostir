@@ -1,0 +1,149 @@
+.our-team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 64px 16px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.our-team-section .content {
+    flex-direction: column;
+    max-width: 800px;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.our-team-section .line {
+    display: inline-flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.our-team-section .text {
+    color: var(--colors-basic-colors-grayscale-100);
+    text-align: center;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.29px;
+}
+
+.our-team-section .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.our-team-section .div {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 48px 16px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.our-team-section .column {
+    display: flex;
+    min-width: 176px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+.our-team-section .content-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+}
+
+.our-team-section .bg-wrapper {
+    display: flex;
+    height: 256px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #f3f3f380;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.our-team-section .bg {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.our-team-section .content-3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.our-team-section .text-wrapper {
+    color: var(--colors-basic-colors-grayscale-100);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.29px;
+    align-self: stretch;
+}
+
+.our-team-section .line-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.our-team-section .text-2 {
+    flex: 1;
+    color: var(--colors-basic-colors-grayscale-100);
+    font-family: var(--fonts-family-inter, Inter);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+    align-self: stretch;
+}
+
+.our-team-section .text-3 {
+    flex: 1;
+    color: var(--colors-basic-colors-grayscale-80);
+    font-size: var(--fonts-size-16);
+    font-weight: 400;
+    line-height: 140%;
+    align-self: stretch;
+}
