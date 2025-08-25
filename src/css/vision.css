@@ -70,7 +70,7 @@
     font-weight: 400;
     line-height: 140%;
     margin: 0;
-    padding: 12px 0;
+    /* padding: 12px 0; */
 }
 
 
@@ -292,10 +292,10 @@
     }
 
     .vision__main {
-        padding: 0px 100px 0px 0px;
+        /* padding: 0px 100px 0px 0px; */
         flex-grow: 1;
         flex-shrink: 0;
-        min-width: 600px;
+        /* min-width: 600px; */
     }
 
     .vision__content {
@@ -307,7 +307,7 @@
     }
 
     .vision__accordion {
-        gap: 32px;
+        gap: 30px;
     }
 
     .vision__title {

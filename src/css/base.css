@@ -238,7 +238,7 @@
 }
 
 
-/* Базовые стили */
+
 * {
     box-sizing: border-box;
 }
@@ -249,9 +249,14 @@ body {
     margin: 0;
     font-family: var(--fonts-family-inter);
     font-weight: var(--fonts-weight-regular);
+    padding-top: 44px;
 }
 
-/* Reset styles */
+body.menu-is-open {
+    overflow: hidden;
+}
+
+
 h1,
 h2,
 h3,
