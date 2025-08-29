@@ -1,0 +1,232 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 64px 16px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.team__content {
+    flex-direction: column;
+    max-width: 800px;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.team__header {
+    display: inline-flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.team__title {
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    text-align: center;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.29px;
+}
+
+.team__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.team__list {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 48px 16px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.team__member {
+    display: flex;
+    min-width: 176px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffffff;
+}
+
+.team__member-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+}
+
+.team__photo-wrapper {
+    display: flex;
+    height: 256px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #f3f3f380;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.team__photo {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.team__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.team__info {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.team__name-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.team__name {
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.29px;
+    align-self: stretch;
+}
+
+.team__role-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.team__role {
+    flex: 1;
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    font-family: var(--fonts-family-inter, Inter);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+    align-self: stretch;
+}
+
+.team__expertise-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.team__expertise {
+    flex: 1;
+    color: var(--colors-basic-colors-grayscale-80, #393939);
+    font-size: var(--fonts-size-16, 14px);
+    font-weight: 400;
+    line-height: 140%;
+    align-self: stretch;
+}
+
+@media (min-width: 1280px) {
+    .team {
+        padding: 124px 52px;
+    }
+
+    .team__content {
+        max-width: 1176px;
+        gap: 48px;
+    }
+
+    .team__title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.4px;
+    }
+
+    .team__list {
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .team__member {
+        min-width: auto;
+    }
+
+    .team__photo-wrapper {
+        height: 376px;
+        border-radius: 32px;
+    }
+
+    .team__name {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.4px;
+    }
+
+    .team__role {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .team__expertise {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}

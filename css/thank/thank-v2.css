@@ -1,0 +1,370 @@
+.thank-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px 16px 32px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+
+.thank-courses__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+
+.thank-courses__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-courses__title {
+    align-self: stretch;
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.29px;
+    margin: 0;
+}
+
+
+.thank-courses__panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #f3f3f380;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-courses__panel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.thank-courses__note {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.thank-courses__note-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-courses__note-text {
+    align-self: stretch;
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 130%;
+    margin: 0;
+}
+
+.thank-courses__note-icon {
+    width: 32px;
+    height: 32px;
+}
+
+
+.thank-courses__card {
+    max-width: 476px;
+    height: 276px;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.thank-courses__card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.thank-courses__card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-courses__card-text {
+    flex: 1;
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+}
+
+
+.thank-courses__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #5b5aff;
+    border-radius: 99px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.thank-courses__button:hover {
+
+    background-color: var(--colors-additional-colors-dodger-blue-80, #7B7BFF);
+}
+
+.thank-courses__button-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-courses__button-text {
+    color: var(--colors-neutral-0, #FFF);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+
+.thank-courses__brand {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-courses__brand-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.thank-courses__brand-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+}
+
+.thank-courses__brand-name {
+    color: var(--colors-basic-colors-grayscale-100, #101010);
+    font-family: var(--font-family-Azo-Sans, "Azo Sans");
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+
+@media (min-width: 1280px) {
+    .thank-courses {
+        padding: 32px 52px 96px;
+    }
+
+    .thank-courses__container {
+        max-width: 1176px;
+        gap: 32px;
+    }
+
+    .thank-courses__title {
+
+        font-size: 40px;
+
+        font-weight: 500;
+        line-height: 120%;
+
+        letter-spacing: -0.4px;
+    }
+
+    .thank-courses__panel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        width: 100%;
+        position: relative;
+        flex: 0 0 auto;
+        padding: 24px 24px 24px 48px;
+        background-color: #f3f3f380;
+        border-radius: 32px;
+        overflow: hidden;
+    }
+
+    .thank-courses__panel-content {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        width: 100%;
+    }
+
+    .thank-courses__note {
+        gap: 32px;
+        flex-direction: row;
+        flex: auto;
+    }
+
+    .thank-courses__note-row {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+        flex-direction: row;
+        padding-right: 100px;
+    }
+
+    .thank-courses__note-text {
+
+        align-self: auto;
+        font-size: 29px;
+        text-align: left;
+        font-weight: 400;
+        line-height: 130%;
+
+    }
+
+    .thank-courses__card {
+        width: 376px;
+        height: 376px;
+        align-items: center;
+        gap: 8px;
+        padding: 24px;
+        border-radius: 24px;
+        min-width: 376px;
+    }
+
+    .thank-courses__card-inner {
+        justify-content: space-between;
+    }
+
+    .thank-courses__card-heading {
+        align-items: flex-start;
+    }
+
+    .thank-courses__card-text {
+
+        font-size: 21px;
+
+        font-weight: 500;
+        line-height: 120%;
+
+    }
+
+    .thank-courses__button {
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .thank-courses__button-text {
+
+        font-size: 16px;
+
+        font-weight: 500;
+        line-height: 120%;
+
+    }
+
+    .thank-courses__brand-row {
+        align-items: center;
+        gap: 12px;
+    }
+
+    .thank-courses__brand-name {
+
+        font-family: var(--font-family-Azo-Sans, "Azo Sans");
+        font-size: 24px;
+
+        font-weight: 500;
+        line-height: 140%;
+
+    }
+
+    .thank-courses__panel-content {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        gap: 32px;
+
+        width: 100%;
+    }
+
+    .thank-courses__note-icon {
+        width: 32px;
+        height: 32px;
+        transform: rotate(-90deg);
+        min-width: 32px;
+    }
+}

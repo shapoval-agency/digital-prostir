@@ -1,0 +1,175 @@
+.thank-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px 16px 32px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.thank-page__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.thank-page__line {
+    align-items: flex-start;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.thank-page__title {
+    align-self: stretch;
+    color: var(--colors-basic-colors-grayscale-100);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.29px;
+}
+
+.thank-page__image-wrapper {
+    height: 276px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.thank-page__image-container {
+    display: flex;
+    height: 276px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.thank-page__image {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin-left: -1.00px;
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+}
+
+.thank-page__description {
+    align-self: stretch;
+    color: var(--colors-basic-colors-grayscale-100);
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.thank-page__button-wrapper {
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.thank-page__button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 12px 16px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #5b5aff;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.thank-page__button-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.thank-page__button-icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+.thank-page__button-icon[aria-hidden="true"] {
+    pointer-events: none;
+}
+
+.thank-page__button-text {
+    color: var(--colors-neutral-0);
+    font-feature-settings: 'cv01' on, 'cv03' on, 'cv04' on;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.thank-page__button:hover {
+    background: var(--colors-additional-colors-dodger-blue-80);
+}
+
+.thank-page__button:active {
+    background: var(--colors-additional-colors-dodger-blue-60);
+}
+
+@media (min-width: 1280px) {
+    .thank-page {
+        padding: 32px 52px 96px 52px;
+    }
+
+    .thank-page__content {
+        max-width: 1176px;
+        gap: 32px;
+    }
+
+    .thank-page__title {
+        font-size: 40px;
+    }
+
+    .thank-page__description {
+        font-size: 29px;
+    }
+
+    .thank-page__button-text {
+        font-size: 14px;
+        letter-spacing: 0.8px;
+    }
+
+    .thank-page__image-container {
+        height: 476px;
+    }
+
+    .thank-page__image-wrapper {
+        height: 476px;
+    }
+}

@@ -1,0 +1,63 @@
+@import url('./base.css');
+
+@import url('./header.css');
+
+@import url('./hero.css');
+
+@import url('./vision.css');
+
+@import url('./support.css');
+
+@import url('./footer.css');
+
+@import url('./teams.css');
+
+@import url('./news.css');
+
+@import url('./cta.css');
+
+@import url('./404/404.css');
+
+@import url('./breadcrumbs.css');
+
+@import url('./thank/thank.css');
+
+@import url('./searchresult/searchresult.css');
+
+@import url('./blog/blog.css');
+
+@import url('./blog/blog-content.css');
+
+@import url('./about/about-hero.css');
+
+@import url('./about/about-course.css');
+
+@import url('./about/about-course-activ.css');
+
+@import url('./about/about-cta.css');
+
+@import url('./contacts/contacts.css');
+
+@import url('./privacy/privacy-block.css');
+
+@import url('./courses/courses-article-block.css');
+
+@import url('./courses/courses-block.css');
+
+@import url('./courses/course-features.css');
+
+@import url('./courses/course-acquisition.css');
+
+@import url('./courses/consultation-details.css');
+
+@import url('./courses/courses-hero.css');
+
+@import url('./courses/courses-autor.css');
+
+@import url('./courses/courses-suitability.css');
+
+@import url('./courses/courses-testimonials.css');
+
+@import url('./courses/courses-program.css');
+
+@import url('./thank/thank-v2.css');
