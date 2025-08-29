@@ -5,7 +5,7 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig(({ command }) => ({
   // !!!
-  base: '/shapoval-agency/',
+  base: '/digital-prostir/',
 
   root: 'src',
 
