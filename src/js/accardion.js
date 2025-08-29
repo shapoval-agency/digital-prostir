@@ -14,7 +14,6 @@ class SimpleAccordion {
   }
 
   init() {
-    // Используем общий класс accordion-header, который остался без изменений
     const headers = this.container.querySelectorAll('.accordion-header');
 
     headers.forEach(header => {
@@ -49,14 +48,11 @@ class SimpleAccordion {
   }
 
   toggle(clickedHeader) {
-    // Ищем родительский элемент с классом accordion-item
     const clickedItem = clickedHeader.closest('.accordion-item');
-    // Контент остается с общим классом accordion-content
     const clickedContent = clickedItem.querySelector('.accordion-content');
     const isOpen = clickedItem.classList.contains('accordion-item--active');
     const angles = this.getRotationAngles();
 
-    // Находим все элементы аккордеона
     const allItems = this.container.querySelectorAll('.accordion-item');
 
     allItems.forEach(item => {
@@ -164,7 +160,6 @@ class SimpleAccordion {
   }
 }
 
-// Инициализация аккордеона
 document.addEventListener('DOMContentLoaded', () => {
   const accordion = new SimpleAccordion('accordion');
 });

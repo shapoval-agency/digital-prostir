@@ -154,10 +154,11 @@
 }
 
 .cta-section__button-text {
-    color: var(--colors-neutral-0, #ffffff);
-    font-size: var(--fonts-size-16, 14px);
+    color: var(--colors-neutral-0);
+    font-size: 14px;
     font-weight: 500;
     line-height: 120%;
+
 }
 
 .cta-section__image-column {
@@ -497,9 +498,10 @@
 .cta-section__sidebar-text {
     flex: 1;
     color: var(--colors-basic-colors-grayscale-100, #101010);
-    font-size: var(--fonts-size-16, 14px);
+    font-size: 14px;
     font-weight: 400;
     line-height: 140%;
+
 }
 
 .cta-section__brand {
@@ -520,9 +522,6 @@
     line-height: 140%;
 }
 
-.cta-section__field-icon {
-    /* Placeholder for field icon if needed */
-}
 
 .cta-section__error-message {
     position: absolute;
@@ -549,7 +548,7 @@
     border: 0;
 }
 
-/* Hover and Active States */
+
 .cta-section__button:hover,
 .cta-section__submit-button:hover {
     background: var(--colors-additional-colors-dodger-blue-80);
@@ -566,7 +565,7 @@
     background-color: #b8b8b8;
 }
 
-/* Form Validation States */
+
 .cta-section__input-frame:hover,
 .cta-section__textarea-frame:hover {
     border-color: #5b5aff;
@@ -614,7 +613,9 @@
     opacity: 0.3;
 }
 
-/* Media Queries for Desktop */
+
+
+
 @media (min-width: 1280px) {
     .cta-section {
         padding: 96px 52px;

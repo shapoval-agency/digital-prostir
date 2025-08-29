@@ -1,5 +1,4 @@
-/* МОБИЛЬНАЯ ВЕРСИЯ (базовые стили) */
-.about__hero-section {
+.about-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +8,7 @@
     background-color: #ffffff;
 }
 
-.about__hero-section .content {
+.about-hero .about-hero__content {
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -20,7 +19,7 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .column {
+.about-hero .about-hero__column {
     display: flex;
     flex-direction: column;
     min-width: 288px;
@@ -31,7 +30,7 @@
     flex-grow: 1;
 }
 
-.about__hero-section .div {
+.about-hero .about-hero__container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -42,7 +41,7 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .line {
+.about-hero .about-hero__row {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -52,7 +51,7 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .content-2 {
+.about-hero .about-hero__content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -63,7 +62,7 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .content-3 {
+.about-hero .about-hero__title-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -74,7 +73,18 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .text {
+.about-hero .about-hero__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.about-hero .about-hero__title {
     align-self: stretch;
     color: var(--colors-basic-colors-grayscale-100, #101010);
     font-size: 40px;
@@ -82,7 +92,7 @@
     line-height: 120%;
 }
 
-.about__hero-section .content-wrapper {
+.about-hero .about-hero__list-item {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -91,7 +101,7 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .content-4 {
+.about-hero .about-hero__item-content {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -99,7 +109,7 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .column-2 {
+.about-hero .about-hero__number {
     display: flex;
     width: 32px;
     height: 32px;
@@ -111,14 +121,14 @@
     background: var(--colors-additional-colors-dodger-blue-100, #5b5aff);
 }
 
-.about__hero-section .text-wrapper {
+.about-hero .about-hero__number-text {
     color: var(--colors-basic-colors-grayscale-20, #f3f3f3);
     font-size: 14px;
     font-weight: 500;
     line-height: 120%;
 }
 
-.about__hero-section .div-wrapper {
+.about-hero .about-hero__text-wrapper {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -126,14 +136,14 @@
     flex: 0 0 auto;
 }
 
-.about__hero-section .text-2 {
+.about-hero .about-hero__item-text {
     color: var(--colors-basic-colors-grayscale-100, #101010);
     font-size: 16px;
     font-weight: 400;
     line-height: 130%;
 }
 
-.about__hero-section .bg-wrapper {
+.about-hero .about-hero__image-wrapper {
     position: relative;
     flex: 1;
     min-width: 288px;
@@ -144,84 +154,60 @@
     aspect-ratio: 1.1;
 }
 
-.about__hero-section .bg {
+.about-hero .about-hero__image {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-/* ДЕСКТОПНАЯ ВЕРСИЯ */
 @media (min-width: 1280px) {
-    .about__hero-section {
+    .about-hero {
         padding: 0px 52px;
+        height: 699px;
     }
 
-    .about__hero-section .content {
+    .about-hero .about-hero__content {
         flex-wrap: nowrap;
         max-width: 1540px;
     }
 
-    .about__hero-section .column {
+    .about-hero .about-hero__column {
         min-width: auto;
         padding: 64px 0px;
     }
 
-    .about__hero-section .div {
+    .about-hero .about-hero__container {
         gap: 48px;
     }
 
-    .about__hero-section .text {
-
+    .about-hero .about-hero__title {
         font-size: 74px;
-
         font-weight: 600;
         line-height: 110%;
-
     }
 
-    .about__hero-section .content-3 {
-
+    .about-hero .about-hero__list {
         flex-direction: row;
         gap: 16px;
         width: 800px;
     }
 
-
-
-    .about__hero-section .text-wrapper {
-
+    .about-hero .about-hero__number-text {
         font-size: 16px;
-
         font-weight: 500;
         line-height: 120%;
-
     }
 
-    .about__hero-section .text-2 {
-
+    .about-hero .about-hero__item-text {
         font-size: 21px;
-
         font-weight: 400;
         line-height: 130%;
-
     }
 
-    .about__hero-section .bg-wrapper {
-
-        height: 697.042px;
-        max-width: 776px;
-        max-height: 702.474px;
-        min-width: 532px;
+    .about-hero .about-hero__image-wrapper {
         gap: 8px;
         flex: 1 0 0;
         aspect-ratio: 95/86;
-
-    }
-
-    .about__hero-section .bg {
-
-        width: 770px;
-        height: 697px;
-
+        object-fit: contain;
     }
 }

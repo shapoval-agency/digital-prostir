@@ -149,6 +149,7 @@
 
     .thank-page__content {
         max-width: 1176px;
+        gap: 32px;
     }
 
     .thank-page__title {
@@ -161,6 +162,7 @@
 
     .thank-page__button-text {
         font-size: 14px;
+        letter-spacing: 0.8px;
     }
 
     .thank-page__image-container {

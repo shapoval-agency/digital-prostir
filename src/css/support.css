@@ -81,6 +81,7 @@
     flex-grow: 1;
     position: relative;
     align-self: stretch;
+    position: absolute;
 }
 
 .development-support__card-badge {
@@ -92,6 +93,7 @@
     position: relative;
     flex: 0 0 auto;
     background-color: #dedeff;
+    position: absolute;
 }
 
 .development-support__card-badge-text {

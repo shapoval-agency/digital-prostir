@@ -243,17 +243,33 @@
     box-sizing: border-box;
 }
 
-html,
+
 body {
     height: 100%;
     margin: 0;
     font-family: var(--fonts-family-inter);
     font-weight: var(--fonts-weight-regular);
-    padding-top: 44px;
+    padding-top: 66px;
+}
+
+@media (min-width: 1280px) {
+
+
+    body {
+        padding-top: 84px;
+    }
 }
 
 body.menu-is-open {
     overflow: hidden;
+}
+
+address {
+    font-style: normal;
+}
+
+textarea {
+    resize: none;
 }
 
 
@@ -284,17 +300,13 @@ a {
 
 button {
     cursor: pointer;
+
+    border: none;
+
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-body {
-    margin: 0;
-    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    color: var(--text-primary);
-    background: #fff;
 }

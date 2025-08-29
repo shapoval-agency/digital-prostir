@@ -194,7 +194,7 @@
     flex: 0 0 auto;
 }
 
-/* Article Card Styles */
+
 .article-card {
     display: flex;
     flex-direction: column;
@@ -316,7 +316,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
     align-self: stretch;
     width: 100%;
     position: relative;
