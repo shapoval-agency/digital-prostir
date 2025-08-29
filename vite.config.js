@@ -2,28 +2,27 @@ import { defineConfig } from 'vite';
 import { globSync } from 'glob';
 import injectHtml from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
-export default defineConfig(({ command }) => ({
-  // !!!
+export default defineConfig({
   base: '/digital-prostir/',
-
   root: 'src',
-
   build: {
     outDir: '../dist',
     emptyOutDir: true,
     sourcemap: true,
-
     rollupOptions: {
       input: globSync('./src/*.html'),
-      output: {
-        manualChunks(id) {
-          if (id.includes('node_modules')) return 'vendor';
-        },
-        entryFileNames: 'commonHelpers.js',
-      },
     },
   },
-
-  plugins: [injectHtml(), FullReload(['./src/**/*.html'])],
-}));
+  plugins: [
+    injectHtml(),
+    FullReload(['./src/**/*.html']),
+    viteStaticCopy({
+      targets: [
+        { src: 'css/*', dest: 'css' },
+        { src: 'js/*', dest: 'js' },
+      ],
+    }),
+  ],
+});
