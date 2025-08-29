@@ -22,6 +22,8 @@ export default defineConfig({
       targets: [
         { src: 'css/*', dest: 'css' },
         { src: 'js/*', dest: 'js' },
+        { src: 'Public/*', dest: '.' },
+        { src: 'fonts/*', dest: 'fonts' },
       ],
     }),
   ],
