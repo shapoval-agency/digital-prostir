@@ -209,6 +209,7 @@
     width: 100%;
     flex-grow: 1;
     min-width: 136px;
+    object-fit: cover;
 }
 
 .news__card-info {
@@ -435,7 +436,7 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 120%;
-        -webkit-line-clamp: 1;
+        /* -webkit-line-clamp: 1; */
     }
 
     .news__card-description {
