@@ -86,17 +86,34 @@
     position: relative;
     align-self: stretch;
     width: 100%;
-    background-color: #f3f3f380;
+    background: linear-gradient(180deg, #CDE4FF 0%, #DEDEFF 100%);
     border-radius: 24px;
     overflow: hidden;
 }
 
 .team__photo {
-    position: relative;
-    flex: 1;
-    align-self: stretch;
-    flex-grow: 1;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    width: 526px;
+    height: 268px;
     object-fit: cover;
+
+
+}
+
+.tranform3 {
+    top: 20px;
+    transform: scale(1);
+}
+
+.transform {
+    transform: scale(1.2);
+}
+
+.transform2 {
+    transform: scale(1.2);
 }
 
 .team__info-wrapper {
@@ -209,6 +226,27 @@
     .team__photo-wrapper {
         height: 376px;
         border-radius: 32px;
+    }
+
+    .team__photo {
+
+        height: 410px;
+        left: 20%;
+
+
+
+    }
+
+    .tranform3 {
+        top: 0px;
+    }
+
+    .transform {
+        transform: scale(1.2);
+    }
+
+    .transform2 {
+        transform: scale(1.2);
     }
 
     .team__name {
