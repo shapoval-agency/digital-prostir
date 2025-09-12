@@ -106,7 +106,7 @@
 
 .footer__contacts-text {
     color: var(--colors-neutral-0);
-    font-size: var(--fonts-size-14);
+    font-size: 14px;
     font-weight: 400;
     line-height: 120%;
     font-style: normal;
@@ -412,7 +412,7 @@
     .footer__content {
         max-width: 1540px;
         align-items: center;
-        gap: 8px;
+        gap: 32px;
     }
 
     .footer__nav-section {
@@ -449,6 +449,6 @@
     }
 
     .footer__contacts {
-        gap: 14px;
+        gap: 32px;
     }
 }
